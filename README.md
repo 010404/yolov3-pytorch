@@ -12,6 +12,12 @@ http://home.linglian.ml:82/index.php/s/PPJJQc2yi8Z9qxJ
 
 依次运行**makeTxt.py**、**voc_label.py**、**train.py**、**detect.py**
 
+
+
+#### **yolov3总览**
+
+![013](https://github.com/010404/yolov3/blob/master/picture/013.png)
+
 ------
 
 
