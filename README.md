@@ -10,7 +10,7 @@ http://home.linglian.ml:82/index.php/s/PPJJQc2yi8Z9qxJ
 
 把网盘下载解压好的weights文件夹添加到yolov3目录中
 
-依次运行**makeTxt.py**、**voc_label.py**、**train.py**、**detect.py**
+依次运行**makeTxt.py**、**voc_label.py**、**train.py**(weights中有训练好的best.pt，这步可以省略)、**detect.py**
 
 
 
