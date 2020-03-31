@@ -101,7 +101,11 @@ train_percent=0.9
 
 **epochs=30**(迭代次数)，**mAp**为0.9左右
 
-#### （训练时未能截图）
+#### （最佳训练epochs时未能截图，因为按照很多不同的epochs训练）
+
+#### **（下面这个是其中的epochs=20）**
+
+![016](https://github.com/010404/yolov3/blob/master/picture/016.png)
 
 
 
@@ -143,6 +147,10 @@ computer
 用于检测目标，在**data/samples**中放入待测图片，图片运行后在**yolov3/output**中输出检测的结果。
 
 ![008](https://github.com/010404/yolov3/blob/master/picture/008.png)
+
+
+
+![015](https://github.com/010404/yolov3/blob/master/picture/015.png)
 
 
 
