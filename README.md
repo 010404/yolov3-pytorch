@@ -2,6 +2,16 @@
 
 ##### 总体上是代码复现，然后用自己查找的图片和xml进行训练
 
+**weight**压缩包下载：
+
+```
+http://home.linglian.ml:82/index.php/s/PPJJQc2yi8Z9qxJ
+```
+
+把网盘下载解压好的weights文件夹添加到yolov3目录中
+
+依次运行**makeTxt.py**、**voc_label.py**、**train.py**、**detect.py**
+
 ------
 
 
