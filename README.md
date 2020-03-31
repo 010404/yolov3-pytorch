@@ -103,7 +103,7 @@ train_percent=0.9
 
 #### （最佳训练epochs时未能截图，因为按照很多不同的epochs训练）
 
-#### **（下面这个是其中的epochs=20）**
+#### **（下面这个是其中的epochs=40，最佳为20）**
 
 ![016](https://github.com/010404/yolov3/blob/master/picture/016.png)
 
