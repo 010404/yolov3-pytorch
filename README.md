@@ -136,6 +136,12 @@ computer
 
 ![010](https://github.com/010404/yolov3/blob/master/picture/010.png)
 
+
+
+#### **detect.py**使用的是**best.pt**权重
+
+![013](https://github.com/010404/yolov3/blob/master/picture/013.png)
+
 ------
 
 
