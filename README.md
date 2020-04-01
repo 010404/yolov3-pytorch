@@ -44,7 +44,7 @@ http://home.linglian.ml:82/index.php/s/PPJJQc2yi8Z9qxJ
 
 **修改yolov3/cfg/yolov3-tiny.cfg**
 
-每个**[yolo]**的**classes**需要修改
+每个[yolo]的classes需要修改
 
 ![012](https://github.com/010404/yolov3/blob/master/picture/012.png)
 
