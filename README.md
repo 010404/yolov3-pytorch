@@ -150,7 +150,7 @@ computer
 
 
 
-![015](https://github.com/010404/yolov3/blob/master/picture/015.png)
+![015](https://github.com/010404/yolov3/blob/master/picture/017.png)
 
 
 
