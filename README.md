@@ -1,5 +1,17 @@
 # yolov3训练自己的数据集(权重)
 
+## 原理
+
+在吴恩达卷积网络介绍中理解了**yolov1**的原理，比**yolov3**的原理简单，这样理解**yolov3**相对不难。
+
+**yolov1**原理是把图片分成A*A规格的网格，然后每个网格单元进入**卷积网络**和**yolo层**检测，在某个网格单元中检测出**中心点**，每个网格单元预测B个**bounding box**(先验框)**和置信度**(confidence score)，以及C个不同类别的概率。**归一化bbox**的信息(**x,y,w,h**--->中心相对于网格的**坐标**,网格**宽度**,网格**高度**)，置信度为**Pr(Object)×IoU(叉乘)**，Pr(Object)意思为是否检测到物体，取值为0或1。之后通过置信度的非极大值抑制，筛选出**置信度最高的bbox**。**yolov3**相比于**yolov1**具有**多尺度预测**和更好的**基础分类网络**以及**分类器**。
+
+
+
+------
+
+## 效果实现
+
 ##### 总体上是代码复现，然后用自己查找的图片和xml进行训练
 
 **weight**压缩包下载：
@@ -55,7 +67,7 @@ train_percent=0.9
 
 在**ImageSets**中得到四个文件：
 
-![**001**](https://github.com/010404/yolov3/blob/master/picture/001.png)
+![001](https://github.com/010404/yolov3/blob/master/picture/001.png)
 
 
 
@@ -81,7 +93,7 @@ train_percent=0.9
 
 不仅仅有**文件名**，还有**文件的具体路径**
 
-![](https://github.com/010404/yolov3/blob/master/picture/004.png)
+![004](https://github.com/010404/yolov3/blob/master/picture/004.png)
 
 
 
@@ -164,7 +176,7 @@ computer
 
 #### **detect.py**使用的是**best.pt**权重
 
-![013](https://github.com/010404/yolov3/blob/master/picture/014.png)
+![014](https://github.com/010404/yolov3/blob/master/picture/014.png)
 
 ------
 
