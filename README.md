@@ -50,7 +50,7 @@ http://home.linglian.ml:82/index.php/s/PPJJQc2yi8Z9qxJ
 
 
 
-每个[**yolo**]上的[**convolutional**]的**filters(过滤器/卷积核)**需要修改：
+每个[yolo]上的[convolutional]的**filters(过滤器/卷积核)**需要修改：
 
 ![011](https://github.com/010404/yolov3/blob/master/picture/011.png)
 
