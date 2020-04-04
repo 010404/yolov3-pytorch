@@ -10,6 +10,34 @@
 
 ------
 
+## 数据集准备
+
+#### 准备了300张图片
+
+![018](https://github.com/010404/yolov3/blob/master/picture/018.png)
+
+
+
+### 用**labelImg**进行每个图像标注
+
+![020](https://github.com/010404/yolov3/blob/master/picture/020.png)
+
+
+
+#### 生成xml标注文件
+
+![019](https://github.com/010404/yolov3/blob/master/picture/019.png)
+
+在**yolov3/data**目录下新建**Image**、**JEPGImages**和**Annotations**<u>文件夹</u>把图片放入**Images**和**JEPGImages**中，把标注文件放入**Annotations**中。
+
+![021](https://github.com/010404/yolov3/blob/master/picture/021.png)
+
+
+
+------
+
+
+
 ## 效果实现
 
 <u>**采用的是yolov3-tiny，对不具有GPU加速的电脑比较友好**</u>
